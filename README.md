@@ -46,8 +46,8 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
-```
-
+add defer 
+add h1
 ```
 ___________
 
@@ -56,8 +56,8 @@ ___________
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to your favorite color.
 
 **YOUR NOTES**
-```
-
+debugger
+update color
 ```
 ___________
 
@@ -70,7 +70,9 @@ First, uncomment the `console.log` under Deliverable 3 in the `index.js` file to
 Using the `traveler` object, update the DOM to show the traveler's *name*, *nickname*, and *photo* in the appropriate places. For the `<img>` tag, make sure to update the `src` attribute *and* the `alt` attribute (it's important for accessibility).
 
 **YOUR NOTES**
-```
+find the html name, nickname, photo
+create variable for each
+dot notation to update name, nickname, photo
 
 ```
 ___________
@@ -88,7 +90,16 @@ We also want to show some of the awesome animal sightings our traveler had. You'
 ```
 
 **YOUR NOTES**
-```
+enumerate over animalSightings
+add function inside enumerable
+create outerDiv with element ('li')
+
+create .innerHTML
+copy/paste innerHTML 
+add backticks surrounding li's
+update instances to interpolation using object.
+create const collection with #animals
+add append to collection for outerDiv
 
 ```
 
@@ -109,6 +120,8 @@ Use Javascript to find the element with the `[data-id='3']` attribute, and *remo
 > Hint: You can use `querySelector` with [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) to find an element with a specific data-id. 
 
 **YOUR NOTES**
-```
+find data-id 3 with querySelector
+add .remove
+add bananas to invoke
 
 ```
