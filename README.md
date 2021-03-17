@@ -46,7 +46,7 @@ Open the `index.html` file in your browser and check the console in Chrome Dev T
 Figure out what you need to change to give Javascript access to the `h1#header` element.
 
 **YOUR NOTES**
-add defer 
+add defer after index.js
 add h1
 ```
 ___________
@@ -56,8 +56,8 @@ ___________
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to your favorite color.
 
 **YOUR NOTES**
-debugger
-update color
+console.dir(header)
+update color with header.style.color = ""
 ```
 ___________
 
